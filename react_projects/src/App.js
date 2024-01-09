@@ -1,6 +1,7 @@
 import React from 'react'
 import Accordian from './components/accordian'
 import RandomColor from './components/ColorCodeGenerator'
+import StarRating from './components/StarComponent'
 
 const App = () => {
   return (
@@ -9,7 +10,10 @@ const App = () => {
           {/* <Accordian/> */}
 
     {/* Random COlor Componenet */}
-    <RandomColor/>
+    {/* <RandomColor/> */}
+
+    {/* Star-Component */}
+    <StarRating/>
 
     </div>
   )
