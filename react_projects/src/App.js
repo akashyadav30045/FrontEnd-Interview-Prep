@@ -3,6 +3,8 @@ import Accordian from './components/accordian'
 import RandomColor from './components/ColorCodeGenerator'
 import StarRating from './components/StarComponent'
 import LoadMoreData from './components/LoadMoreButton'
+import GenerateRandomColor from './components/ColorCodeGenerator'
+import ImageSlider from './components/image-slider'
 
 const App = () => {
   return (
@@ -11,13 +13,14 @@ const App = () => {
           {/* <Accordian/> */}
 
     {/* Random COlor Componenet */}
-    {/* <RandomColor/> */}
+    {/* <GenerateRandomColor/> */}
 
     {/* Star-Component */}
     {/* <StarRating/> */}
 
     {/* Load More Data */}
-    <LoadMoreData/>
+    {/* <LoadMoreData/> */}
+    <ImageSlider/>
 
     </div>
   )
